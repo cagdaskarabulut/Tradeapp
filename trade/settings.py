@@ -21,15 +21,14 @@ CELERY_BROKER_URL = 'redis://localhost:6379'
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'pfh&21%6x&sj3@-18z=3%d&lwc(+!or$5vj2ff0k^_yko)u#e&'
-BINANCE_API_KEY = 'WGKjpwDd7w8fgFeCnIhtk1b0ctq2tfNCzAOiV7aLODqsT7z8ONyShR07ZZRnu9OQ'
-BINANCE_SECRET_KEY = 'ViPzA8YB67RIP1BRYAcDXj6BotoBsQvVikFxdIKajR7L5i3TIGsm1AruuR6Gb4W0'
+SECRET_KEY = 'SECRET_KEY TODO'
+BINANCE_API_KEY = 'BINANCE_API_KEY TODO'
+BINANCE_SECRET_KEY = 'BINANCE_SECRET_KEY TODO'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 #ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
-#ALLOWED_HOSTS = ['127.0.0.1', 'localhost','192.168.0.22','cagdas-mac.local','cgds','cgds.local']
 ALLOWED_HOSTS = ['*']
 CORS_ORIGIN_ALLOW_ALL=True
 X_FRAME_OPTIONS = 'ALLOWALL'
